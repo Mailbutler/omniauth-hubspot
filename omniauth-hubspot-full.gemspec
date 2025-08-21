@@ -2,13 +2,13 @@
 require File.expand_path('../lib/omniauth-hubspot/version', __FILE__)
 
 Gem::Specification.new do |spec|
-  spec.name          = "omniauth-hubspot"
+  spec.name          = "omniauth-hubspot-full"
   spec.version       = Omniauth::Hubspot::VERSION
-  spec.authors       = ["fjaeger"]
-  spec.email         = ["fabian@mailbutler.io"]
-  spec.description   = %q{OmniAuth strategy for Hubspot}
-  spec.summary       = %q{OmniAuth strategy for Hubspot}
-  spec.homepage      = "https://github.com/mailbutler/omniauth-hubspot.git"
+  spec.authors       = ["romanos"]
+  spec.email         = ["romanos@jargon.ai"]
+  spec.description   = %q{OmniAuth strategy for Hubspot (borrowed heavily from @kmrshntr)}
+  spec.summary       = %q{OmniAuth strategy for Hubspot (borrowed heavily from @kmrshntr)}
+  spec.homepage      = "https://github.com/romanos/omniauth-hubspot.git"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
